@@ -1,3 +1,3 @@
-module github.com/LimakMiRose/go/greetings
+module github.com/LimakMiRose/greetings
 
 go 1.22.2
