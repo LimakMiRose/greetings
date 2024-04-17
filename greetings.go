@@ -18,7 +18,7 @@ func Hello(name string) (string, error) {
     return message, nil
 }
 
-//Hellos returns a map that associates each of the named people with greeting message.
+// Hellos returns a map that associates each of the named people with greeting message.
 func Hellos(name []string) (map[string]string, error) {
     // A map to associate names with messages.
     messages := make(map[string]string)
