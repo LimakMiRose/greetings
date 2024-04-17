@@ -29,7 +29,7 @@ func Hellos(names []string) (map[string]string, error) {
             return nil, err
         }
         // In the map, associate the retrieved message with the name.
-        message[name] = message
+        messages[name] = message
     }
     return messages, nil
 }
